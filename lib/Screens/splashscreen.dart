@@ -26,7 +26,7 @@ class _SplashscreenState extends State<Splashscreen> {
     Size mq=MediaQuery.sizeOf(context);
     return Scaffold(
       body:Center(
-        child: Image.asset('assets/images/logo.png',width: mq.width *.3,),
+        child: Image.asset('assets/images/logo.png',width: mq.width *.2,),
       ),
     );
   }
